@@ -1,0 +1,2 @@
+# Screenshot_for_Unity
+Unityでスクリーンショットを撮影するためのライブラリです。
