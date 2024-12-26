@@ -1,0 +1,8 @@
+{
+  "name": "jp.mixtuti.screenshot_for_unity",
+  "author": "mixtuti",
+  "version": "0.0.1",
+  "displayName": "Screenshot for Unity",
+  "description": "System for Screenshot on the Unity\nUse : UniTask",
+  "unity": "2022.3"
+}

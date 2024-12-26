@@ -1,0 +1,16 @@
+{
+    "name": "SSSample",
+    "rootNamespace": "",
+    "references": [
+        "GUID:737747d772ec911488e75c882687580a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
