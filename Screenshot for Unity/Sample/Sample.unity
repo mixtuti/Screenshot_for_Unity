@@ -418,7 +418,6 @@ GameObject:
   m_Component:
   - component: {fileID: 527777297}
   - component: {fileID: 527777296}
-  - component: {fileID: 527777298}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -487,25 +486,12 @@ Transform:
   m_GameObject: {fileID: 527777295}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &527777298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 527777295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9151fede350b8dd4fbd08f78fbe6bbdb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
 --- !u!1 &995712180
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,9 +671,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1209988679}
+  - component: {fileID: 1209988683}
   - component: {fileID: 1209988681}
   - component: {fileID: 1209988682}
-  - component: {fileID: 1209988683}
+  - component: {fileID: 1209988684}
   m_Layer: 0
   m_Name: ScreenshotObject
   m_TagString: Untagged
@@ -722,7 +709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 691e3d714ce4c804d89014bf0f2703b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 1528035104}
+  audioSource: {fileID: 1209988684}
   screenshotSound: {fileID: 8300000, guid: 522706a0de9b55b429fb3ece5401e6bf, type: 3}
 --- !u!114 &1209988682
 MonoBehaviour:
@@ -766,30 +753,13 @@ MonoBehaviour:
   captureMultipleResolutions: 0
   customResolution: {x: 1920, y: 1080}
   resolutionPreset: 0
---- !u!1 &1528035103
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1528035105}
-  - component: {fileID: 1528035104}
-  m_Layer: 0
-  m_Name: Audio Source
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &1528035104
+--- !u!82 &1209988684
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1528035103}
+  m_GameObject: {fileID: 1209988678}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -879,21 +849,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!4 &1528035105
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1528035103}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1812999911
 GameObject:
   m_ObjectHideFlags: 0
@@ -974,7 +929,6 @@ SceneRoots:
   - {fileID: 1209988679}
   - {fileID: 527777297}
   - {fileID: 430535143}
-  - {fileID: 1528035105}
   - {fileID: 1158813333}
   - {fileID: 995712183}
   - {fileID: 8841829}
